@@ -1,0 +1,32 @@
+.root {
+    /*-fx-background-image: url("src/to/image.jpg");*/
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #7a7878;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#enterCPUTimeLabel{
+    -fx-font-size: 12px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#colOneLabel, #colTwoLabel, #colThreeLabel, #colFourLabel, #colFiveLabel, #colSixLabel
+{
+    -fx-font-size: 12px;
+    -fx-text-fill: #000000;
+}
+
+.button {
+    -fx-background-color: #00bfff;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.button:pressed {
+    -fx-background-color: #036786; /* Change to your desired color */
+}

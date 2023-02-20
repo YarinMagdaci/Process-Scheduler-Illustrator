@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="myListView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="268.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hit.controller.IllustratorController">
+   <children>
+      <Button fx:id="loadButton" layoutX="532.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnLoadButtonPressed" text="Load" />
+      <Button fx:id="startButton" disable="true" layoutX="413.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnStartButtonOfIllustratorPressed" text="Start" />
+      <Button fx:id="newButton" layoutX="472.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnNewButtonPressed" text="New" />
+      <Label fx:id="instructionsLabel" layoutX="20.0" layoutY="161.0" prefHeight="37.0" prefWidth="500.0" text="Choose New/Load and then press Start to begin the illustrator" textFill="WHITE" />
+      <Label fx:id="welcomeLabel" layoutX="20.0" layoutY="134.0" prefHeight="17.0" prefWidth="480.0" />
+      <Button fx:id="addButton" layoutX="8.0" layoutY="101.0" mnemonicParsing="false" onAction="#OnAddButtonPressed" text="Add" visible="false" />
+      <TextField fx:id="addTextField" layoutX="226.0" layoutY="101.0" prefHeight="25.0" prefWidth="88.0" visible="false" />
+      <Label fx:id="enterCPUTimeLabel" layoutX="51.0" layoutY="105.0" text="Enter CPU time for the process:" visible="false" />
+      <ListView fx:id="listView" layoutX="8.0" layoutY="14.0" prefHeight="79.0" prefWidth="58.0" visible="false" />
+      <Separator fx:id="firstSeparator" layoutX="63.0" layoutY="14.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="8.0" visible="false" />
+      <Separator fx:id="secondSeparator" layoutX="126.0" layoutY="14.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="8.0" visible="false" />
+      <Separator fx:id="thirdSeparator" layoutX="189.0" layoutY="14.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="8.0" visible="false" />
+      <Separator fx:id="fourthSeparator" layoutX="252.0" layoutY="14.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="8.0" visible="false" />
+      <Separator fx:id="fifthSeparator" layoutX="315.0" layoutY="14.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="8.0" visible="false" />
+      <Separator fx:id="horizontalSeperator" layoutX="8.0" layoutY="51.0" prefHeight="4.0" prefWidth="58.0" visible="false" />
+      <Label fx:id="colOneLabel" layoutX="25.0" layoutY="27.0" visible="false" />
+      <Label fx:id="colTwoLabel" layoutX="88.0" layoutY="27.0" visible="false" />
+      <Label fx:id="colThreeLabel" layoutX="151.0" layoutY="27.0" visible="false" />
+      <Label fx:id="colFourLabel" layoutX="214.0" layoutY="27.0" />
+      <Label fx:id="colFiveLabel" layoutX="277.0" layoutY="27.0" visible="false" />
+      <Label fx:id="colSixLabel" layoutX="340.0" layoutY="27.0" />
+      <ProgressIndicator fx:id="colOneProgressIndicator" layoutX="20.0" layoutY="55.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="colTwoProgressIndicator" layoutX="83.0" layoutY="55.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="colThreeProgressIndicator" layoutX="146.0" layoutY="55.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="colFourProgressIndicator" layoutX="209.0" layoutY="55.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="colFiveProgressIndicator" layoutX="272.0" layoutY="55.0" progress="0.0" visible="false" />
+      <ProgressIndicator fx:id="colSixProgressIndicator" layoutX="335.0" layoutY="55.0" progress="0.0" visible="false" />
+      <Separator fx:id="sixthSeparator" layoutX="378.0" layoutY="14.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="1.0" visible="false" />
+      <Button fx:id="saveButton" disable="true" layoutX="532.0" layoutY="54.0" mnemonicParsing="false" onAction="#onSaveButtonPressed" text="Save" />
+   </children>
+</Pane>
